@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,400;1,500&display=swap');
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 110px;
+}
+.container h1{
+    font-size:70px;
+    color: #2F59A7;
+}
+.container span{
+    position: absolute;
+    top: 330px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.container .btn-about{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2F59A7;
+    width: 100px;
+    color:white;
+    cursor:pointer;
+}
+.container .btn-about:hover{
+    background-color:blue;
+}
+
+
+.content-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1px;
+    margin: 80px 1px;
+}
+
+.content{
+    width: 280px;
+    margin:10px;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px 0 #656668;
+    background-color: #fff;
+    transition: all 0.3s ease-in;
+}
+
+.content:hover{
+    box-shadow: 1px 1px 7px 0 grey;
+    background-color: #2F59A7;
+}
+
+.content:hover .content-body h3, .content:hover .content-body p, .content:hover .content-socmed i{
+    color: #eee;
+}
+
+.content-img img{
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: -30px auto 0px auto;
+}
+
+.content-body{
+    text-align: center;
+    padding: 0;
+}
+
+.card-body h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px 0 0 0;
+}
+
+.text-position{
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin: 8px;
+    color: #000000; }
+
+    
+
+      
+        /* Tampilan smartphone */
+@media(max-width: 576px) {
+        html {
+            font-size: 12px;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            
+            border-radius: 60px;
+            
+          }
+          
+          .contact-left {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffffff;
+            border-radius: 55px;
+            margin-left: 20px;
+            box-shadow: 1px 1px 7px 0 #0076f0;
+          }
+          
+
+          
+        .container .title h1 .btn-about{
+            font-size: 50px;
+            text-align: center;
+        
+        }
+        .container img{
+            display: none;
+        }
+        .container .title span{
+            position: absolute;
+            top:200px;
+        }
+        .container .title button{
+            margin-left: 80px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+        .container .title button:hover{
+          background-color: blue;
+      }
+       
+        .jumbroton .logo{
+          margin: 10px;
+        }
+        .tulisan-kecil {
+font-size: 14x;    
+text-align: center;  
+  
+        
+        }
+        
+      }     
+     
+       
+  
+
+
+
+
+        
